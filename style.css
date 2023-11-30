@@ -1,0 +1,48 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f7fd;
+}
+
+.add-task{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.input-task{
+    width: 50%;
+    margin-right: 15px;
+}
+
+.title-task{
+    margin-top: 50px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-add{
+    margin-right: 15px;
+}
+
+.taskItem{
+    margin: 20px auto 0 auto;
+    padding: 5px 40px;
+    min-width: 60%;
+}
+
+.check-task{
+    margin-right: 10px;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.list-group li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check-element{
+    text-decoration:line-through;
+}
